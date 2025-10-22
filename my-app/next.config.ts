@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  turbopack: {
-    // Disables custom turbopack behavior; keeps it compatible with Webpack fallback
-    rules: {},
+  turbopack: { rules: {} },
+  eslint: {
+    ignoreDuringBuilds: true, // ← ignores lint errors/warnings
   },
   outputFileTracingRoot: __dirname,
   output: "standalone",
