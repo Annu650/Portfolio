@@ -7,10 +7,10 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="h-screen flex flex-col justify-center items-center text-center text-white px-6"
+      className="min-h-[90vh] md:min-h-screen flex flex-col justify-center items-center text-center text-white px-4 py-16 md:py-0"
     >
       <motion.h1
-        className="text-5xl md:text-7xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500"
+        className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 leading-tight"
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
@@ -19,7 +19,7 @@ export default function Hero() {
       </motion.h1>
 
       <motion.p
-        className="mt-6 text-lg md:text-xl text-gray-300 max-w-2xl"
+        className="mt-6 text-base sm:text-lg md:text-xl text-gray-300 max-w-2xl px-4"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.2 }}

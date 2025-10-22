@@ -5,19 +5,32 @@ import { div } from "framer-motion/client";
 import { FaBriefcase } from "react-icons/fa";
 
 const experiences = [
-   
-    {
-    role: "Full Stack Developer Intern",
-    company: "Classy Endeavors (Remote)",
+  {
+    role: "Software Engineer Intern",
+    company: "Invennico Technolabs (Remote)",
     duration: "Mar 2025 – Aug 2025",
     points: [
-      "Developed production-level web applications using Next.js, TypeScript, and MERN stack.",
+      "Developed web applications using Next.js, TypeScript, and MERN stack.",
       "Built and integrated RESTful APIs & serverless services (AWS Lambda, API Gateway, DynamoDB).",
       "Implemented geolocation tracking & IP-based analytics for personalization and security.",
       "Automated API documentation with Swagger, streamlining developer onboarding.",
       "Enhanced dashboards with CSV export, responsive UI, and advanced data filtering."
     ],
   },
+   
+    {
+    role: "Full Stack Developer Intern",
+    company: "Classy Endeavors (Remote)",
+    duration: "Mar 2025 – Aug 2025",
+    points: [
+      "Developed web applications using Next.js, TypeScript, and MERN stack.",
+      "Built and integrated RESTful APIs & serverless services (AWS Lambda, API Gateway, DynamoDB).",
+      "Implemented geolocation tracking & IP-based analytics for personalization and security.",
+      "Automated API documentation with Swagger, streamlining developer onboarding.",
+      "Enhanced dashboards with CSV export, responsive UI, and advanced data filtering."
+    ],
+  },
+ 
 ];
 
 export default function Experience() {
