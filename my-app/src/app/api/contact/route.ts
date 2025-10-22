@@ -16,7 +16,7 @@ export async function POST(request: Request) {
     }
 
     // Send email using Resend
-    const { data, error } = await resend.emails.send({
+    const { error } = await resend.emails.send({
       from: 'Portfolio Contact <onboarding@resend.dev>', // Update this to your verified domain later
       to: 'manikpuriannu644@gmail.com', // Your email where you want to receive messages
       subject: `New message from ${name}`,

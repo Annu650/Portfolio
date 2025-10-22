@@ -4,6 +4,7 @@ const nextConfig = {
   experimental: {
     turbo: false, // disable Turbopack, fallback to Webpack
   },
+  output: "standalone",
 };
 
 module.exports = nextConfig;
